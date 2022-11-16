@@ -5,8 +5,7 @@ metadata:
 spec:
   type: NodePort
   selector:
-    matchLabels:
-      name: n8n
+    app: n8n
   ports:
   - name: n8n-port
     protocol: TCP
