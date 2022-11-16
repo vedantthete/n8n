@@ -10,4 +10,5 @@ spec:
   - name: n8n-port
     protocol: TCP
     targetPort: 5678
+    port: 5678
     nodePort: 30000
